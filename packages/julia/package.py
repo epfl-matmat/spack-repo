@@ -17,13 +17,14 @@ class Julia(Package):
 
     # Julia Versions
     # fmt: off
+    version("1.11.1",     sha256="cca8d13dc4507e4f62a129322293313ee574f300d4df9e7db30b7b41c5f8a8f3")
     version("1.11.0-rc1", sha256="d9d7ca81087185abbb8a375c41f734deea6ea26aef2dc40d99467f8c5c7cc8d6")
-    version("1.10.4", sha256="079f61757c3b5b40d2ade052b3cc4816f50f7ef6df668825772562b3746adff1", preferred=True)
-    version("1.10.3", sha256="81b910c922fff0e27ae1f256f2cc803db81f3960215281eddd2d484721928c70")
-    version("1.10.2", sha256="51bccc9bb245197f24e6b2394e6aa69c0dc1e41b4e300b796e17da34ef64db1e")
-    version("1.10.1", sha256="fe924258e55d074410b134195cf6b85cbe8f307fcd05a4fdd23f8944c5941a70")
-    version("1.9.4", sha256="07d20c4c2518833e2265ca0acee15b355463361aa4efdab858dad826cf94325c")
-    version("1.8.5", sha256="e71a24816e8fe9d5f4807664cbbb42738f5aa9fe05397d35c81d4c5d649b9d05")
+    version("1.10.4",     sha256="079f61757c3b5b40d2ade052b3cc4816f50f7ef6df668825772562b3746adff1")
+    version("1.10.3",     sha256="81b910c922fff0e27ae1f256f2cc803db81f3960215281eddd2d484721928c70")
+    version("1.10.2",     sha256="51bccc9bb245197f24e6b2394e6aa69c0dc1e41b4e300b796e17da34ef64db1e")
+    version("1.10.1",     sha256="fe924258e55d074410b134195cf6b85cbe8f307fcd05a4fdd23f8944c5941a70")
+    version("1.9.4",      sha256="07d20c4c2518833e2265ca0acee15b355463361aa4efdab858dad826cf94325c")
+    version("1.8.5",      sha256="e71a24816e8fe9d5f4807664cbbb42738f5aa9fe05397d35c81d4c5d649b9d05")
 
     version('1.8.0', sha256='e80d732ccb7f79e000d798cb8b656dc3641ab59516d6e4e52e16765017892a00')
     version('1.7.3', sha256='9b2f4fa12d92b4dcc5d11dc66fb118c47681a76d3df8da064cc97573f2f5c739')
