@@ -17,6 +17,7 @@ class Julia(Package):
 
     # Julia Versions
     # fmt: off
+    version("1.11.5",     sha256="723e878c642220cc0251a0e13758c059a389cadc7f01376feaf1ea7388fe8f9c")
     version("1.11.4",     sha256="fb3d3c5fccef82158a70677c0044ac5ae40410eceb0604cdc8e643eeff21df8d")
     version("1.11.3",     sha256="7d48da416c8cb45582a1285d60127ee31ef7092ded3ec594a9f2cf58431c07fd")
     version("1.11.2",     sha256="8a372ad262d4d4d55a1044f4fe3bce7c9a4a3ce8c513d2470e58e8071eecd476")
